@@ -1,15 +1,15 @@
-# Temperature Converter
+<!-- # Temperature Converter
 
 We will be using JavaScript to make a temperature conversion utility. A folder is provided for you, with empty HTML and CSS files.
 
 ## Getting Started
 
-* Fork and clone this repository
+* Fork and clone this repository -->
 
-## Requirements
-* Create a single page using HTML/CSS that contains an input field and a submit button.
-* Additionally, add a clear button
-* When the submit button is pressed, convert the inputted temperature from F to C using the appropriate conversion formula (may need to Google it)
+<!-- ## Requirements
+* Create a single page using HTML/CSS that contains an input field and a submit button. -->
+<!-- * Additionally, add a clear button -->
+<!-- * When the submit button is pressed, convert the inputted temperature from F to C using the appropriate conversion formula (may need to Google it) -->
 
 ## User Experience
 
@@ -27,12 +27,13 @@ We will be using JavaScript to make a temperature conversion utility. A folder i
 3. Place the `<input>` and `<button>` elements into a form, so that pressing ENTER will automatically convert the temperature. Note that there's an event type called `'submit'` that you can use instead of `'click'`.
 
 4. Add your own personal sense of style using CSS styling and positioning techniques. Ideas include:
-  * different fonts (see [Google Fonts](https://developers.google.com/fonts/docs/getting_started) for how to link fonts into a webpage)
-  * images
-  * colors
-  * borders
-  
-5. Add the ability to convert to and from Kelvins! 
+
+- different fonts (see [Google Fonts](https://developers.google.com/fonts/docs/getting_started) for how to link fonts into a webpage)
+- images
+- colors
+- borders
+
+5. Add the ability to convert to and from Kelvins!
 
 ## Deliverables
 
@@ -43,5 +44,6 @@ See the screenshot below for an example. Don't feel like you need to do it exact
 ---
 
 ## Licensing
+
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
