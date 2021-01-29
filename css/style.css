@@ -1,3 +1,7 @@
+body {
+  background-color: cornsilk;
+}
+
 
 section {
   color:black;
@@ -15,5 +19,5 @@ input {
 button {
   padding: 1px;
   font-size: 20px;
-  background-color: cornsilk;
+  background-color: rgb(230, 200, 81);
 }

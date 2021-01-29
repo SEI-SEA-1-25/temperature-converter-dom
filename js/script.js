@@ -23,6 +23,7 @@ console.log('Hello, front end');
 
 
 
+
 const tempConvert = () => {
     var fahrenheit = document.getElementById("fahrenheit").value;
     var celsius = document.getElementById("celsius").value;
@@ -38,12 +39,12 @@ const tempConvert = () => {
 
 }
 
+document.getElementById('submit').onclick = tempConvert;
 
 function clearForm() {
     document.getElementById('fahrenheit').value = '';
     document.getElementById('celsius').value = '';
 } 
 
-document.getElementById('submit').onclick = tempConvert;
 
-  
+document.getElementById('clear').onclick = clearForm; 
