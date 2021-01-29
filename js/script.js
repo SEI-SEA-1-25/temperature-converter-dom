@@ -26,10 +26,7 @@ clearButton.addEventListener("click", function () {
   }
   let gone = document.querySelector(".crimsonRed");
   removeAllChildNodes(gone);
-  input = "";
-
-  //   let alsoGone = document.querySelector(".directInput").innerText;
-  //   alsoGone = "";
+  input = document.querySelector(".directInput").value = " ";
 });
 
 // const button = document.getElementById("submit-twood")
