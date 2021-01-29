@@ -1,3 +1,35 @@
-h1 {
-  color: blue;
+body {
+  background-color: rgb(205, 205, 205);
+  text-align: center;
 }
+
+input{
+  border: : 1px solid darkgray ;
+  font-size :2em ;
+  padding:7px ;
+  text-align:center ;
+  
+}
+
+.buttons-container{
+
+  margin: 10px;
+}
+
+#submit {
+  margin-right: 8px;
+}
+
+.display :{
+  width: :400px;
+  height: 200px;
+  border: 2px solid black;
+  display: flex;
+  font-size:3em;
+}
+
+h1 {
+  color: rgb(116, 116, 116);
+}
+
+
