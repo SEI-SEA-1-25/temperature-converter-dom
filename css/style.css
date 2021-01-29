@@ -1,41 +1,33 @@
 body {
+  background-color: rgb(226, 137, 152);
   width: 100%;
-  border: 1px solid lightgray;
   font-size: 3em;
-  vertical-align: middle;
+  text-align: center;
+  font-family: 'Fraunces', serif;
 }
 
 h1 {
   text-align: center;
   width: 100%;
   vertical-align: top;
-  color: rgb(197, 11, 11);
+  color: rgb(253, 251, 251);
 }
 
-.container {
-  width: 40%;
-  border: 1px solid lightgray;
-  margin: 0 auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0%) 
+.display {
+  color:  rgb(253, 251, 251);
+  width: 400px;
+  height: 200px;
+  border:2px rgb(226, 137, 152);
+  margin: auto;
 }
 
-#new-degree {
-  width: 100%;
-  border: 1px solid lightgray;
-  text-align: center;
+.buttons {
+  color: rgb(190, 81, 99);
+  font-family: 'Fraunces', serif;
 }
 
-#degree-input {
-  height: 2em;
-  padding: 1em;
-  margin: 1em;
-}
-
-#submit-degree {
-  font-size: 2em;
-  background-color red;
+input {
+  text-align: center; 
+  font-size: 1em;
+  padding: 3px;
 }
