@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
-</head>
-<body>
-  <h1>Hello Front-End</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="./js/script.js"></script>
+    <title>Hello Front-End</title>
+  </head>
+  <body>
+    <div class="mainBody">
+      <div>
+        <h1 class="tempText">Temperature Converter</h1>
+        <form>
+          <input name="number" type="text" id="textArea" value=" " />
+        </form>
+        <div class="faren">
+          <button class="farenB">You Want Fahrenheit</button>
+        </div>
+        <div class="Cel">
+          <button class="celB">Or You Want Celsius</button>
+        </div>
 
-  <script type="text/javascript" src="js/script.js"></script>
-</body>
+        <div class="output">
+          <h1 class="convert"></h1>
+        </div>
+        <div class="clear">
+          <button class="clearB" id="clearButton">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+  </body>
 </html>
