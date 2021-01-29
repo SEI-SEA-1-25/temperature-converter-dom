@@ -1,3 +1,51 @@
 h1 {
-  color: blue;
+  color: black;
+  text-align: center;
+}
+
+.main {
+  border: 1px solid black;
+  margin: auto;
+  width: 20%;
+}
+
+.input-text {
+  display:inline;
+}
+
+#entry-field { 
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  display: inline-flex;
+  bottom: 4px;
+}
+.temp-btns {
+  border: 1px solid black;
+}
+
+.submit-buttons {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.result-window {
+  border: 1px solid black;
+  text-align: center;
+  
+}
+.result-window h2{
+  display: inline;
+}
+#id{
+  margin-left: 10px;
+}
+
+.test{
+  margin: 10px;
+}
+
+.temp-btns {
+  display:none;
 }
