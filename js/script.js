@@ -1,6 +1,7 @@
 const subButton = document.querySelector(".submitButton");
-let input = document.querySelector(".directInput").value;
+//let input = document.querySelector(".directInput").value;
 subButton.addEventListener("click", function () {
+  let input = document.querySelector(".directInput").value;
   let far = document.querySelector("#fahrenheit");
   let cel = document.querySelector("#celcius");
   let result = "";
