@@ -1,3 +1,43 @@
-h1 {
-  color: blue;
+body {
+  background-image: url('https://www.teahub.io/photos/full/34-340335_50-beautiful-and-minimalist-presentation-backgrounds-backgrounds-for.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
 }
+
+h1 {
+  font-weight: large;
+  margin: 30px;
+}
+
+.tempValue {
+ border: 1px black solid;
+ width: 300px;
+ height: 50px;
+ border-radius: 50%;
+ text-align: center;
+ margin: 30px;
+ padding: 20px;
+}
+
+.navigBut {
+  padding: 25px;
+}
+
+.resultInputRed {
+  background-color: rgb(255,0,0,0.9);
+  margin: 30px;
+  width: 250px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+ .resultInputBlue {
+  background-color: rgb(0,0,255,0.9);
+  margin: 30px;
+  width: 250px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px black solid;
+ }
