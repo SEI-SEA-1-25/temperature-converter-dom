@@ -5,11 +5,11 @@
 
 // let enterFirstValue = document.querySelector("#temp").value = ""
 
-// function textFieldClick () {
-//     document.querySelector("#temp").value = ""
-// }
+function textFieldClick () {
+    document.querySelector("#temp").value = ""
+}
 
-// document.querySelector("#temp").addEventListener("click", textFieldClick);
+document.querySelector("#temp").addEventListener("click", textFieldClick);
 
 // document.querySelector("#clear").addEventListener("click", clearClick);
 //
@@ -42,19 +42,23 @@
 //         console.log(radioValue)
 //     }
 // }
-
-let textFieldValue = document.querySelector("#temp").value;
-let textField = document.querySelector("#temp")
-let newTemp = (textFieldValue-32) / 1.8;
-
 document.querySelector("#convert").addEventListener("click", convertClick);
 
+
+// let textFieldValue = document.querySelector("#temp").value;
+// let newTemp = (textFieldValue - 32) / 1.8;
+// let divParent = document.querySelector(".answerbox");
+
+
 function convertClick() {
-    textFieldValue.innerText = newTemp;
+    let textFieldValue = document.querySelector("#temp").value;
+    let newTemp = (textFieldValue - 32) / 1.8;
+    let divParent = document.querySelector(".answerbox");
+    divParent.innerText = newTemp;
     // console.log(newTemp)
 }
 
-console.log(newTemp)
+// console.log(newTemp)
 // let newTemp = (textFieldValue-32) / 1.8;
 // console.log(newTemp);
 
