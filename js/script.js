@@ -1,5 +1,3 @@
-console.log('Hello, front end');
-
 function mySubmit() {
     document.getElementById("myForm").submit()
   
@@ -13,9 +11,14 @@ subButton.addEventListener("click", function(e) {
     let cel = document.querySelector("#celcius")
     let result = ''
         if (far.checked === true && cel.checked === false) {
-            result = (input - 30) / 2 
+            result = (input - 32) / 1.8 
         }
         if (cel.checked === true && far.checked === false){
-            result  = (input + 30) * 2
+            result  = (input * 1.8) + 32
         } console.log(result)
+
+        newText = document.createElement("p");
+    let parent = document.querySelector(".crimsonRed");
+    newText.innerText = result;
+    parent.append(newText);
 })

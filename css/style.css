@@ -34,4 +34,8 @@ button {
   background-color: red;
   height: 100px;
   width: 600px;
+  color: black;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
 }
+
