@@ -1,28 +1,68 @@
+*{
+  background-color: rgb(215, 204, 170);
+}
+
+
 h1 {
   color: rgb(255, 94, 0);
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
 }
 
 #output{
   color: rgb(126, 79, 52);
   text-align: center;
   padding: 1%;
+  font-family: 'Oswald', sans-serif;
 }
 
 h3 {
-  color:rgb(255, 172, 127);
+  color:rgb(218, 142, 102);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.buttons{
   text-align: center;
 }
 
-.buttons {
-  text-align: center;
+#submit {
+  margin-right: 15px;
+  background-color: Transarent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-family: 'Oswald', sans-serif;
+}
+#clear {
+  background-color: Transarent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-family: 'Oswald', sans-serif;
 }
 
 #textField {
   text-align: center;
-  padding: 1%;
+  font-family: 'Oswald', sans-serif;
 }
 
 input[type="text"] {
-  width: 45px;
+  font-family: 'Oswald', sans-serif;
+}
+
+form{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+#error {
+  text-align: center;
+  font-family: 'Oswald', sans-serif; 
 }
