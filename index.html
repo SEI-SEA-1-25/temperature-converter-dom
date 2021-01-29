@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
-
+  <h1>Temperature Converter</h1>
+  <form action="/action_page.php">
+    <label>Fahrenheit</label>
+    <lable class="container1">
+      <input type="radio" id="sub" name="temp" value="submit">
+      <label for="submit">°F</label>
+      <lable class="container2">
+      <input type="radio" id="clear" name="temp" value="radio">
+      <label for="clear">°C</label>
+    <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+    oninput="temperatureConverter(this.value)"
+    onchange="temperatureConverter(this.value)">
+    <input type="submit" value="Submit"></form></button>
+    <input type="reset" value="Reset"></form></button>
+  </form>
+  <p>Celsius: <span id="outputCelsius"></span></p>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
