@@ -11,7 +11,7 @@ function textFieldClick () {
 
 document.querySelector("#temp").addEventListener("click", textFieldClick);
 
-// document.querySelector("#clear").addEventListener("click", clearClick);
+document.querySelector("#clear").addEventListener("click", clearClick);
 //
 //When Convert button is clicked
 //1. Get value from radio buttons.
@@ -56,6 +56,11 @@ function convertClick() {
     let divParent = document.querySelector(".answerbox");
     divParent.innerText = newTemp;
     // console.log(newTemp)
+}
+
+function clearClick() {
+    document.querySelector("#temp").value = ""
+    document.querySelector(".answerbox").innerText = ""
 }
 
 // console.log(newTemp)
