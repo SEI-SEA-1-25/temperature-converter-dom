@@ -3,9 +3,14 @@ body {
   padding: 0;
   display: block;
   text-align: center;
-  font-family: avenir, sans-serif:
+  font-family: avenir, sans-serif;
+  background: grey;
 }
+
 
 h1 {
   color: rgba(0, 0, 0, 0.658);
+}
+h2 {
+  background: red;
 }
