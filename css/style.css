@@ -1,3 +1,52 @@
 h1 {
-  color: blue;
+  color: rgb(2, 2, 2);
+}
+#centerme{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items:center;
+  align-content: center;
+  position: relative;
+    top: 40vh;
+}
+
+label#converlabel{
+  font-size: 3rem;
+}
+
+input#yourtemp {
+  width: 97%;
+  height: 43px;
+  margin: 7px;
+  text-align: center;
+  font-size: 1em;
+}
+
+#submitme, #clearme{
+  width: 37%;
+  height: 40px;
+  margin-left: 30px;
+}
+
+#celcius{
+  margin-top: 10px;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+}
+.radsstyle{
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.labme{
+  font-size: 1.6rem;
+}
+
+.pickaboo {
+  position: relative;
+  left: 32%;
 }
