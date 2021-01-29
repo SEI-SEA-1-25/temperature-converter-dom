@@ -1,3 +1,28 @@
 h1 {
-  color: blue;
+  color: rgb(255, 94, 0);
+  text-align: center;
+}
+
+#output{
+  color: rgb(126, 79, 52);
+  text-align: center;
+  padding: 1%;
+}
+
+h3 {
+  color:rgb(255, 172, 127);
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#textField {
+  text-align: center;
+  padding: 1%;
+}
+
+input[type="text"] {
+  width: 45px;
 }
