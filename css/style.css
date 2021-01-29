@@ -1,3 +1,73 @@
-h1 {
-  color: blue;
+.tempText {
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+body {
+  border: 30px solid crimson;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  align-self: center;
+}
+
+.mainBody {
+  background-color: beige;
+  width: 300px;
+  height: 500px;
+  border: 50px inset navy;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  align-self: center;
+}
+
+#textArea {
+  width: 155px;
+  height: 150px;
+  text-align: center;
+  font-size: 50px;
+  color: crimson;
+  background-color: rgb(175, 176, 184);
+  border: none;
+}
+.farenB {
+  width: 255px;
+  height: 25px;
+  background-color: cadetblue;
+  border: none;
+  margin-top: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.celB {
+  width: 255px;
+  height: 25px;
+  background-color: cadetblue;
+  border: none;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.output {
+  width: 300px;
+  height: 75px;
+  color: antiquewhite;
+  background-color: crimson;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  margin-top: auto;
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.clearB {
+  width: 100px;
+  height: 25px;
+  background-color: cadetblue;
+  border: none;
+  margin-top: 10px;
 }
