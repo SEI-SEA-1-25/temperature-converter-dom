@@ -11,6 +11,10 @@ body {
 h1 {
   color: rgba(0, 0, 0, 0.658);
 }
-h2 {
+.result {
   background: red;
+  padding: 3%;
+  color: antiquewhite;
+  margin: 10% 20%;
+  border-radius: 20px;
 }
