@@ -54,7 +54,7 @@ function convertClick() {
     let textFieldValue = document.querySelector("#temp").value;
     let newTemp = (textFieldValue - 32) / 1.8;
     let divParent = document.querySelector(".answerbox");
-    divParent.innerText = newTemp;
+    divParent.innerText = newTemp + "°C";
     // console.log(newTemp)
 }
 
