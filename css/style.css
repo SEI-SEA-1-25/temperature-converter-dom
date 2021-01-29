@@ -1,3 +1,71 @@
-h1 {
-  color: blue;
+body {
+  background-color:rgba(221, 141, 221, 0.774);
+  border-style: none;
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  text-align: center;
+
 }
+
+.title{
+  border-style: none;
+  grid-column: 2/5;
+  grid-row: 1;
+  font-size: 50px;
+  background-image: url(../Covert.png);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+}
+
+.tempbox{
+  border-style: none;
+  grid-column: 2/5;
+  grid-row: 2;
+  width: 100%;
+  height: 50%;
+  justify-items: space-evenly;
+  
+
+}
+
+.scale{
+  border-style: none;
+  grid-column: 2/5;
+  grid-row: 3;
+  height: 50px;
+  font-size: 35px;
+}
+
+.buttons{
+  border-style: none;
+  grid-column: 2/5;
+  grid-row: 4;
+  height: 75px;
+}
+
+.result {
+  border-style: solid;
+  grid-column: 2 / 5;
+  grid-row: 5;
+}
+
+#degrees{
+  height: 50px;
+  width: 50%;
+  font-size: 50px;
+  text-align: center;
+}
+#button1{
+  font-size: 20px;
+  width: 125px;
+
+}
+#button2{
+  font-size: 20px;
+  width: 125px;
+
+}
+

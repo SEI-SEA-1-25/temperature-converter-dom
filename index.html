@@ -3,11 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+  <link rel="stylesheet" id= "back_img" type="text/css" href="css/style.css">
+  <title>Temperature Converter</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+
+
+  
+    <div class="title">Covert Temperature!</div>
+  
+    <div class="tempbox">
+      <input type="text" id="degrees">
+    </div>
+
+
+    <div class= "scale">
+        <input type="radio" id="fahrenheit"
+         name="scale" value="f">
+        <label for="Fahrenheit">F</label>
+        <input type="radio" id="celcius"
+         name="scale" value="C">
+        <label for="Celcius">C</label>
+    </div>
+
+
+    <div class="buttons">
+      <button type="submit" id= "button1" value="Submit">Submit</button>
+      <button type="reset" id= "button2" value="Reset">Clear</button>
+    </div>
+
+    <div class="result"></div>
+
+
+
+
+
 
   <script type="text/javascript" src="js/script.js"></script>
 </body>
