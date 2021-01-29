@@ -1,3 +1,18 @@
 h1 {
-  color: blue;
+  color:rgb(116,116,116);
 }
+
+body {
+  text-align:center;
+}
+
+#output {
+  background-color: red;
+  width:50%;
+  height:200%;
+  font-size :25px;
+  text-align: center;
+  position:relative;
+  display:inline-block;
+}
+
