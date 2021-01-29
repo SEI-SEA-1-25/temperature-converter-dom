@@ -21,4 +21,12 @@ subButton.addEventListener("click", function(e) {
     let parent = document.querySelector(".crimsonRed");
     newText.innerText = result;
     parent.append(newText);
+
+})
+
+
+const cleButton = document.querySelector(".clearButton");
+subButton.addEventListener("click", function(e) {
+    e.preventDefault()
+    let input = document.querySelector(".directInput").value = " "
 })
