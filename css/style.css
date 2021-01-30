@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+  background: rgb(215, 223, 240);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1 {
-  color: blue;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Bangers", sans-serif;
+  color: rgb(48, 140, 89);
+  margin-bottom: 20px;
+}
+
+#temp {
+  text-align: center;
+  font-size: 30px;
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#convert {
+  background: rgb(206, 153, 153);
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 15px 60px;
+  cursor: pointer;
+}
+
+#clear {
+  font-size: 10px;
+  margin: 10px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+#radiobuttons {
+  width:  200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.answerbox {
+  text-align: center;
+  font-size: 30px;
+  width: 500px;
+  height: 100px;
+  margin: 10;
+  border: 2px dotted black;
+  background: lavender;
+  border-radius: 20px;
 }
