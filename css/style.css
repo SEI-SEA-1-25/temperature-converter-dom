@@ -29,12 +29,21 @@ input#yourtemp {
   margin-left: 30px;
 }
 
-#celcius{
+#celcius_display{
   margin-top: 10px;
   font-size: 30px;
   position: relative;
   text-align: center;
 }
+
+.hotback{
+  background-color: red;
+}
+
+.coldback{
+  background-color: #5cc8f0;
+}
+
 .radsstyle{
   height: 25px;
   width: 25px;

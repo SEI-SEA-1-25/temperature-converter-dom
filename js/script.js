@@ -1,19 +1,28 @@
-// collecting input from frontend "temp.html"
+// Collecting input from frontend "temp.html"
 
-let finput = document.querySelector("#yourtemp").value;
-// let ftemp = finput.value;
+let form = document.querySelector("form");
+let finput = document.querySelector("#yourtemp");
 
-// converting form input to celcius
-let cel = function(ftemp){
-    let celcius = Math.floor((ftemp - 32) * .5556);
-    return celcius;
+
+//Calculating the temperature
+
+function temperature() {
+    form.addEventListener("submit", function(e){
+    e.preventDefault();
+    console.log(finput.value);
+    console.log(Math.floor((finput.value - 32) * .5556));
+});
+    return Math.floor((finput.value - 32) * .5556)
+
 }
+
+
 
 //Displaying on the frontend "temp.html"
+
 function celDisplay(){
-    document.querySelector("#celcius").innerHTML = `Temperature in Celcius is: ${finput}`;
+    return document.querySelector("#celcius_display").textContent = `Temperature in Celcius is: ${temperature()} °C`;
 }
 
-// console.log(cel(50)) -- works!!
 
 
