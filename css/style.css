@@ -38,10 +38,14 @@ input#yourtemp {
 
 .hotback{
   background-color: red;
+  width: 500px;
+  height:  180px;
 }
 
 .coldback{
   background-color: #5cc8f0;
+  width: 500px;
+  height:  180px;
 }
 
 .radsstyle{

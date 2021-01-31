@@ -12,8 +12,14 @@ function temperature() {
     console.log(finput.value);
     console.log(Math.floor((finput.value - 32) * .5556));
 });
-    return Math.floor((finput.value - 32) * .5556)
+    let savedtemp = Math.floor((finput.value - 32) * .5556)
 
+    if (savedtemp > 79){
+        document.querySelector("#celcius_display").classList.add("hotback");
+    } else if (savedtemp < 79){
+        document.querySelector("#celcius_display").classList.add("coldback");
+    }
+    return savedtemp;
 }
 
 
