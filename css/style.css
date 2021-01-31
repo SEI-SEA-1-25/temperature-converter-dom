@@ -1,13 +1,35 @@
 body {
   background-color: rgb(207, 207, 207);
-  display: grid;
-  grid-template-columns: 700px 700px 700px;
-  grid-template-rows: 200px auto 200px; 
-  column-gap: 10px;
-  row-gap: 15px;
-
-
+  /* display:flex;
+  justify-content: center; */
 }
-.display-output {
+.container {
+  text-align: center;
+  justify-content: center;
+}
+.selection {
+  /* display: flex;
+  justify-content: center; */
+}
+.input {
+  /* display: flex;
+  justify-content: space-around; */
+  height: 40px;
+  width: 600px;
   
+}
+.buttons {
+  /* display: flex;
+  justify-content: center; */
+}
+.display {
+  /* display: flex;
+  justify-content: center; */
+  background: red;
+  height: 80px;
+  width: 400px;
+  margin-top: 10px;
+}
+.title {
+  align-items: center;
 }
