@@ -1,30 +1,37 @@
 console.log('Hello, front end');
-
-
-let tempValue = document.querySelector('.tempValue').value;
+let degreeResult = 0;
+let fahren;
+let cels;
 let submitButton = document.querySelector('.submitBut');
+let divResult = document.querySelector('.divResult');
 
-submitButton.onclick = function submitFunct() {
-    let degreeResult = 0;
-    let fahren = document.querySelector('.fahrenheit');
-    let cels = document.querySelector('.celsius');
+submitButton.addEventListener('click', function() {
+    let tempValue = document.querySelector('.tempValue').value;
+    fahren = document.querySelector('.fahrenheit');
+    cels = document.querySelector('.celsius');
     if (fahren.checked === true && cels.checked === false) {
         degreeResult = (tempValue -32) / 1.8;
     } else if (cels.checked === true && fahren.checked === false){
         degreeResult = (tempValue * 18) + 32;
     }
-    let degreeResultNew = document.createElement('p');
-    let inputResult = document.querySelector('.inputResult');
-    degreeResultNew.append(inputResult);
-}
-// submitFunct();
+
+    divResult.innerText = degreeResult;
+})
+
+document.querySelector('.clearBut').addEventListener('click', function (){
+    divResult.innerText = '';
+    document.querySelector('.tempValue').value = '';
+   
+})
+
 
  let switchColor = function () {
-    let inputResult = document.querySelector('.inputResult');
+    // divResult = document.querySelector('.divResult');
     if (degreeResult >= 0) {
-    inputResult.classList.toggle(resultInputRed);
+        divResult.classList.toggle('.resultDivRed');
+        console.log(divResult.classList)
  } else {
-    inputResult.classList.toggle(resultInputBlue);
+    divResult.classList.toggle('.resultDivBlue');
  }
 }
 switchColor();
