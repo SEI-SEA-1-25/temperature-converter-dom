@@ -1,23 +1,52 @@
+const submit = document.querySelector('#submit')
+const clear = document.querySelector('#clear')
+var input = document.querySelector('#textInput')
+var display = document.querySelector('.display')
+const radioF= document.querySelector('#F')
+const radioC = document.querySelector('#C')
 
-const btn = document.querySelector('#btn');
-// click button
-btn.onclick = function () {
-    const selector = document.querySelectorAll('input[name="temp"]');
-    let selectedValue;
-    for (const a of selector) {
-        if (a.checked) {
-            selectedValue = a.value;
-            break;
-        }
-    }
-    alert(selectedValue);
+let result = 0
 
-function cToF() {
-    var c = document.getElementById("tempinput").value;
-  return (c * 9 / 5) + 32;
+
+
+submit.addEventListener('click', () => {
+  if(radioF.checked === true && radioC.checked === false){
+    fahrenheitToCelsius()
+  
+  }
+  if(radioC.checked === true && radioF.checked === false) {
+    celsiusToFahrenheit()
+    
+  }
+})
+clear.addEventListener('click', () => {
+  display.style.background = ''
+  input.value = ''
+  display.innerHTML = ''
+})
+
+
+function fahrenheitToCelsius() {
+  var result = (input.value - 32) / 1.8
+  display.innerHTML = result + ' °C'
+
+  if (result >= 100){
+    display.style.background = 'red'
+  }
+  else {
+    display.style.background = 'blue'
+  }
 }
 
-function fToC() {
-    var f = document.getElementById("tempinput").value;
-  return (f - 32) * 5 / 9;
+function celsiusToFahrenheit() {
+  result = (input.value * 1.8) + 32
+  display.innerHTML = result + ' °F'
+  
+  if (result >= 37){
+    display.style.background = 'red'
+  }
+  else {
+    display.style.background = 'blue'
+  }
 }
+
